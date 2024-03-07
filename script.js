@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
             url: 'https://twinword-emotion-analysis-v1.p.rapidapi.com/analyze/',
             headers: {
                 'content-type': 'application/x-www-form-urlencoded',
-                'X-RapidAPI-Key': '92f2002afemsh95dacd8f58ca9acp1e7883jsn3338e80d820f',
+                'X-RapidAPI-Key': 'key',
                 'X-RapidAPI-Host': 'twinword-emotion-analysis-v1.p.rapidapi.com',
             },
             data: new URLSearchParams({ text }),
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 text,
             },
             headers: {
-                'X-RapidAPI-Key': '92f2002afemsh95dacd8f58ca9acp1e7883jsn3338e80d820f',
+                'X-RapidAPI-Key': 'key',
                 'X-RapidAPI-Host': 'twinword-sentiment-analysis.p.rapidapi.com',
             },
         };
